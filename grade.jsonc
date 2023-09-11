@@ -1,0 +1,246 @@
+{
+    "semestres": [
+        {
+            "name": "Perfil 1",
+            "nodes": [
+                {
+                    "id": "1",
+                    "name": "Circuitos Digitais",
+                    "credits": 4,
+                    "depends_on": []
+                },
+                {
+                    "id": "2",
+                    "name": "Laboratório de \nCircuitos Digitais",
+                    "credits": 2,
+                    "depends_on": []
+                },
+                {
+                    "id": "3",
+                    "name": "Introdução à \nProgramação",
+                    "credits": 4,
+                    "depends_on": []
+                },
+                {
+                    "id": "4",
+                    "name": "Laboratório de \nProgramação",
+                    "credits": 2,
+                    "depends_on": []
+                },
+                {
+                    "id": "5",
+                    "name": "Lógica Matemática",
+                    "credits": 2,
+                    "depends_on": []
+                },
+                {
+                    "id": "6",
+                    "name": "Geometria Analítica \ne Álgebra Linear",
+                    "credits": 4,
+                    "depends_on": []
+                }
+            ]
+        },
+        {
+            "name": "Perfil 2",
+            "nodes": [
+                {
+                    "id": "7",
+                    "name": "Arq. e Org. de\n Computadores",
+                    "credits": 4,
+                    "depends_on": ["3"]
+                },
+                {
+                    "id": "9",
+                    "name": "Matemática Discreta",
+                    "credits": 4,
+                    "depends_on": ["5"]
+                },
+                {
+                    "id": "8",
+                    "name": "Estrutura de Dados",
+                    "credits": 4,
+                    "depends_on": ["3", "4"]
+                },
+                {
+                    "id": "10",
+                    "name": "Física Geral 1",
+                    "credits": 4,
+                    "depends_on": []
+                },
+                {
+                   "id": "11",
+                   "name": "Cálculo Diferencial \ne Integral 1",
+                   "credits": 4,
+                   "depends_on": [] 
+                }
+            ]
+        },
+        {
+            "name": "Perfil 3",
+            "nodes":[
+                {
+                    "id": "12",
+                    "name": "Sistemas \n Operacionais",
+                    "credits": 4,
+                    "depends_on": ["7"]
+                },
+                {
+                    "id": "14",
+                    "name": "Programação \n Orientada a Objetos",
+                    "credits": 4,
+                    "depends_on": ["8"]
+                },
+                {
+                    "id": "13",
+                    "name": "Estrutura de \nDados Avançadas",
+                    "credits": 4,
+                    "depends_on": ["8"]
+                },
+                {
+                    "id": "15",
+                    "name": "Introdução à \nEng. de Software",
+                    "credits": 4,
+                    "depends_on": []
+                },
+                {
+                    "id": "16",
+                    "name": "Cálculo Diferencial \ne Integral 2",
+                    "credits": 4,
+                    "depends_on": ["11"]
+                }
+            ]
+        },
+        {
+            "name": "Perfil 4",
+            "nodes": [
+                {
+                    "id": "17",
+                    "name": "Redes de \nComputadores",
+                    "credits": 4,
+                    "depends_on": ["12"]
+                },
+                {
+                    "id": "18",
+                    "name": "Org. e Recuperação \nde Informação",
+                    "credits": 4,
+                    "depends_on": ["13"]
+                },
+                {
+                    "id": "19",
+                    "name": "Banco de Dados",
+                    "credits": 4,
+                    "depends_on": ["8"]
+                },
+                {
+                    "id": "20",
+                    "name": "Engenharia de \n Software",
+                    "credits": 4,
+                    "depends_on": ["15"]
+                },
+                {
+                    "id": "21",
+                    "name": "Informática, Ética e \n Sociedade",
+                    "credits": 4,
+                    "depends_on": []
+                },
+                {
+                    "id": "22",
+                    "name": "Probabilidade e \n Estatística",
+                    "credits": 4,
+                    "depends_on": ["11"]
+                }
+            ]
+        },
+        {
+            "name": "Perfil 5",
+            "nodes": [
+                {
+                    "id": "23",
+                    "name": "Teoria da \n Computação",
+                    "credits": 4,
+                    "depends_on": ["9"]
+                },
+                {
+                    "id": "24",
+                    "name": "Inteligência \n Artificial",
+                    "credits": 4,
+                    "depends_on": ["13"]
+                },
+                {
+                    "id": "25",
+                    "name": "Processamento \n Gráfico",
+                    "credits": 4,
+                    "depends_on": ["6", "13"]
+                }
+            ]
+        },
+        {
+            "name": "Perfil 6",
+            "nodes": [
+                {
+                    "id": "26",
+                    "name": "Projeto e \n Análise de Algoritmos",
+                    "credits": 4,
+                    "depends_on": ["9", "13"]
+                },
+                {
+                    "id": "27",
+                    "name": "Linguagens de \n Programação",
+                    "credits": 4,
+                    "depends_on": ["13"]
+                }
+            ]
+        },
+        {
+            "name": "Perfil 7",
+            "nodes": [
+                {
+                    "id": "28",
+                    "name": "Compiladores",
+                    "credits": 4,
+                    "depends_on": ["23", "14"]
+                }
+            ]
+        },
+        {
+            "name": "Perfil 8",
+            "nodes": [
+                {
+                    "id": "29",
+                    "name": "Pesquisa Acadêmica \n em Computação",
+                    "credits": 2,
+                    "depends_on": []
+                }
+            ]
+        },
+        {
+            "name": "Perfil 9",
+            "nodes": [
+                {
+                    "id": "30",
+                    "name": "Atividades de \nConclusão de Curso",
+                    "credits": 24,
+                    "depends_on": []
+                },
+                {
+                    "id": "31",
+                    "name": "Seminários de \nComputação",
+                    "credits": 21,
+                    "depends_on": []
+                }
+            ]
+        },
+        {
+            "name": "Perfil 10",
+            "nodes": [
+            ]
+        }
+        ,
+        {
+            "name": "Perfil 11",
+            "nodes": [
+            ]
+        }
+    ]
+}
